@@ -12,7 +12,7 @@
       <se:Name>Limită macroregiuni</se:Name>
       <se:FeatureTypeStyle>
 
-      <!-- Regula afișată doar la scări <> 1:5.000.000, fără etichete -->
+      <!-- Regula afișată doar la scări < 1:5.000.000, fără etichete -->
         <se:Rule>
           <se:Name>Limită macroregiuni</se:Name>
           <se:MinScaleDenominator>5000000</se:MinScaleDenominator>
