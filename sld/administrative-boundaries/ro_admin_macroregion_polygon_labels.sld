@@ -12,7 +12,7 @@
       <se:Name>Limită macroregiuni</se:Name>
       <se:FeatureTypeStyle>
 
-        <!-- Regula pentru contur poligon, afișată la orice scară -->
+      <!-- Regula afișată doar la scări <> 1:5.000.000, fără etichete -->
         <se:Rule>
           <se:Name>Limită macroregiuni</se:Name>
           <se:MinScaleDenominator>5000000</se:MinScaleDenominator>
@@ -25,7 +25,7 @@
           </se:PolygonSymbolizer>
         </se:Rule>
 
-        <!-- Regula pentru etichete, afișată doar la scări > 1:5.000.000 -->
+        <!-- Regula afișată doar la scări > 1:5.000.000, cu etichete -->
         <se:Rule>
           <se:Name>Limită macroregiuni</se:Name>
           <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
