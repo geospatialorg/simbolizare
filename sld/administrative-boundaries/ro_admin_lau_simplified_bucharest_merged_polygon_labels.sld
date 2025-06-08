@@ -6,7 +6,7 @@
     <se:Name>Limită UAT</se:Name>
       <se:FeatureTypeStyle>
 
-      <!-- Regula afișată doar la scări < 1:300.000, fără eticheteu -->
+      <!-- Regula afișată doar la scări < 1:300.000, fără etichete -->
         <se:Rule>
           <se:Name>Limită UAT</se:Name>
           <se:MinScaleDenominator>300000</se:MinScaleDenominator>
