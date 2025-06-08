@@ -12,7 +12,7 @@
           <se:MinScaleDenominator>5000000</se:MinScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#218c74</se:SvgParameter>
+              <se:SvgParameter name="stroke">#be2edd</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
@@ -25,7 +25,7 @@
           <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#218c74</se:SvgParameter>
+              <se:SvgParameter name="stroke">#be2edd</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
@@ -53,7 +53,7 @@
               </se:Fill>
             </se:Halo>
             <se:Fill>
-              <se:SvgParameter name="fill">#218c74</se:SvgParameter>
+              <se:SvgParameter name="fill">#be2edd</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>

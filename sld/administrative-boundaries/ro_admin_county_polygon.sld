@@ -9,7 +9,7 @@
         <se:Name>Limită județ</se:Name>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#218c74</se:SvgParameter>
+              <se:SvgParameter name="stroke">#b71540</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
