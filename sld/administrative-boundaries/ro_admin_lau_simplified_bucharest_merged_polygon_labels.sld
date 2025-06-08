@@ -13,7 +13,7 @@
           <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#be2edd</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>

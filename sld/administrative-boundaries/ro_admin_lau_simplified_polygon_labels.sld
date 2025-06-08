@@ -6,27 +6,27 @@
     <se:Name>Limită UAT</se:Name>
       <se:FeatureTypeStyle>
 
-      <!-- Regula afișată doar la scări < 1:5.000.000, fără etichete -->
+      <!-- Regula afișată doar la scări < 1:300.000, fără etichete -->
         <se:Rule>
           <se:Name>Limită UAT</se:Name>
-          <se:MinScaleDenominator>5000000</se:MinScaleDenominator>
+          <se:MinScaleDenominator>300000</se:MinScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#be2edd</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
         </se:Rule>
 
-        <!-- Regula afișată doar la scări > 1:5.000.000, cu etichete -->
+        <!-- Regula afișată doar la scări > 1:300.000, cu etichete -->
         <se:Rule>
           <se:Name>Limită UAT</se:Name>
-          <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#218c74</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+              <se:SvgParameter name="stroke">#be2edd</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
@@ -53,7 +53,7 @@
               </se:Fill>
             </se:Halo>
             <se:Fill>
-              <se:SvgParameter name="fill">#218c74</se:SvgParameter>
+              <se:SvgParameter name="fill">#be2edd</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
           </se:TextSymbolizer>
