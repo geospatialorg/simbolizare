@@ -3,10 +3,10 @@
   <NamedLayer>
     <se:Name>Macroregiuni</se:Name>
     <UserStyle>
-      <se:Name>Macroregiuni</se:Name>
+      <se:Name>Limită macroregiuni</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>Single symbol</se:Name>
+          <se:Name>Limită macroregiuni</se:Name>
           <se:PolygonSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#232323</se:SvgParameter>
