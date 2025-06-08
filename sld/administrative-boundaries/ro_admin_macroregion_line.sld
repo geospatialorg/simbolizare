@@ -7,13 +7,14 @@
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>Limită macroregiuni</se:Name>
-          <se:PolygonSymbolizer>
+          <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#0a3d62</se:SvgParameter>
               <se:SvgParameter name="stroke-width">2</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
+              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
             </se:Stroke>
-          </se:PolygonSymbolizer>
+          </se:LineSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
     </UserStyle>
