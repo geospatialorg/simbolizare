@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://www.opengis.net/se" version="1.1.0">
   <NamedLayer>
-    <se:Name>Macroregiuni</se:Name>
-    <UserStyle>
-      <se:Name>Limită macroregiuni</se:Name>
+  <se:Name>Regiuni de dezvoltare</se:Name>
+  <UserStyle>
+    <se:Name>Limită regiuni dezvoltare</se:Name>
       <se:FeatureTypeStyle>
 
       <!-- Regula afișată doar la scări < 1:5.000.000, fără etichete -->
         <se:Rule>
-          <se:Name>Limită macroregiuni</se:Name>
+          <se:Name>Limită regiuni dezvoltare</se:Name>
           <se:MinScaleDenominator>5000000</se:MinScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
@@ -21,7 +21,7 @@
 
         <!-- Regula afișată doar la scări > 1:5.000.000, cu etichete -->
         <se:Rule>
-          <se:Name>Limită macroregiuni</se:Name>
+          <se:Name>Limită regiuni dezvoltare</se:Name>
           <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Stroke>
